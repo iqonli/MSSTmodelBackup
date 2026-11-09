@@ -1,5 +1,14 @@
 # MSST 模型备份
 
+## YAML 配置合集（两个 ZIP）
+
+所有 YAML 已按来源分为两个压缩包，每包均包含 YAML 文件、`README.txt` 和 `relation.txt`。后者记录 YAML 对应的模型权重文件名、原始及备份下载地址、权重大小与 SHA256；未收录的 Demucs 权重会明确注明，不能把未知数据当作已校验结果。
+
+- **[点击下载 MSST-YAML-Configs.zip](https://github.com/iqonli/MSSTmodelBackup/releases/download/yaml-config-bundles-2026-11-10/MSST-YAML-Configs.zip)**：九模型合集和 BS-RoFormer SW Fixed，共 10 个 YAML。
+- **[点击下载 UVR-YAML-Configs.zip](https://github.com/iqonli/MSSTmodelBackup/releases/download/yaml-config-bundles-2026-11-10/UVR-YAML-Configs.zip)**：UVR 公共模型合集的 14 个 Demucs YAML。
+
+[查看 ZIP 合集 Release](https://github.com/iqonli/MSSTmodelBackup/releases/tag/yaml-config-bundles-2026-11-10)。两个 ZIP 只包含配置、对应关系和使用说明；需要运行模型时，还须下载相应权重文件。
+
 这里备份了 10 个用于 [Music Source Separation Training（MSST）](https://github.com/ZFTurbo/Music-Source-Separation-Training) 的 Roformer 模型及对应 YAML 配置。模型文件保存在 **GitHub Releases 的 Assets** 中，点击下面的链接即可直接下载，无需从仓库源码中查找。
 
 ## 常用模型（置顶）

@@ -1,0 +1,111 @@
+{
+  "source": "https://github.com/Politrees/UVR_resources/blob/main/UVR_resources/model_list_filenames.json",
+  "note": "UVR_Demucs_Model_2 and Bag from their YAML model IDs; other entries from public UVR model index.",
+  "pairs": {
+    "mdx.yaml": {
+      "label": "Demucs v3: mdx",
+      "model_files": [
+        "0d19c1c6-0f06f20e.th",
+        "7ecf8ec1-70f50cc9.th",
+        "c511e2ab-fe698775.th",
+        "7d865c68-3d5dd56b.th"
+      ]
+    },
+    "mdx_q.yaml": {
+      "label": "Demucs v3: mdx_q",
+      "model_files": [
+        "6b9c2ca1-3fd82607.th",
+        "b72baf4e-8778635e.th",
+        "42e558d4-196e0e1b.th",
+        "305bc58f-18378783.th"
+      ]
+    },
+    "mdx_extra.yaml": {
+      "label": "Demucs v3: mdx_extra",
+      "model_files": [
+        "e51eebcc-c1b80bdd.th",
+        "a1d90b5c-ae9d2452.th",
+        "5d2d6c55-db83574e.th",
+        "cfa93e08-61801ae1.th"
+      ]
+    },
+    "mdx_extra_q.yaml": {
+      "label": "Demucs v3: mdx_extra_q",
+      "model_files": [
+        "83fc094f-4a16d450.th",
+        "464b36d7-e5a9386e.th",
+        "14fc6a69-a89dd0ee.th",
+        "7fd6ef75-a905dd85.th"
+      ]
+    },
+    "repro_mdx_a.yaml": {
+      "label": "Demucs v3: repro_mdx_a",
+      "model_files": [
+        "9a6b4851-03af0aa6.th",
+        "1ef250f1-592467ce.th",
+        "fa0cb7f9-100d8bf4.th",
+        "902315c2-b39ce9c9.th"
+      ]
+    },
+    "repro_mdx_a_hybrid_only.yaml": {
+      "label": "Demucs v3: repro_mdx_a_hybrid_only",
+      "model_files": [
+        "fa0cb7f9-100d8bf4.th",
+        "902315c2-b39ce9c9.th"
+      ]
+    },
+    "repro_mdx_a_time_only.yaml": {
+      "label": "Demucs v3: repro_mdx_a_time_only",
+      "model_files": [
+        "9a6b4851-03af0aa6.th",
+        "1ef250f1-592467ce.th"
+      ]
+    },
+    "UVR_Demucs_Model_1.yaml": {
+      "label": "Demucs v3: UVR Model",
+      "model_files": [
+        "ebf34a2db.th"
+      ]
+    },
+    "hdemucs_mmi.yaml": {
+      "label": "Demucs v4: hdemucs_mmi",
+      "model_files": [
+        "75fc33f5-1941ce65.th"
+      ]
+    },
+    "htdemucs.yaml": {
+      "label": "Demucs v4: htdemucs",
+      "model_files": [
+        "955717e8-8726e21a.th"
+      ]
+    },
+    "htdemucs_6s.yaml": {
+      "label": "Demucs v4: htdemucs_6s",
+      "model_files": [
+        "5c90dfd2-34c22ccb.th"
+      ]
+    },
+    "htdemucs_ft.yaml": {
+      "label": "Demucs v4: htdemucs_ft",
+      "model_files": [
+        "f7e0c4bc-ba3fe64a.th",
+        "d12395a8-e57c48e6.th",
+        "92cfc3b6-ef3bcb9c.th",
+        "04573f0d-f3cf25b2.th"
+      ]
+    },
+    "UVR_Demucs_Model_2.yaml": {
+      "label": "Demucs v3: UVR Model 2",
+      "model_files": [
+        "ebf34a2d.th"
+      ]
+    },
+    "UVR_Demucs_Model_Bag.yaml": {
+      "label": "Demucs v3: UVR Model Bag",
+      "model_files": [
+        "ebf34a2d.th",
+        "ebf34a2db.th"
+      ]
+    }
+  }
+}
