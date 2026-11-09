@@ -1,0 +1,612 @@
+{
+  "source_repository": "TRvlvr/model_repo",
+  "source_tag": "all_public_uvr_models",
+  "source_release_id": 72481020,
+  "expected_assets": 86,
+  "source_total_bytes": 16077696038,
+  "backup_tag": "uvr-all-public-models-2026-11-10",
+  "assets": [
+    {
+      "name": "1_HP-UVR.pth",
+      "size": 126792647,
+      "id": 72197371,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/1_HP-UVR.pth"
+    },
+    {
+      "name": "2_HP-UVR.pth",
+      "size": 126782699,
+      "id": 72197377,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/2_HP-UVR.pth"
+    },
+    {
+      "name": "3_HP-Vocal-UVR.pth",
+      "size": 126792647,
+      "id": 72197381,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/3_HP-Vocal-UVR.pth"
+    },
+    {
+      "name": "4_HP-Vocal-UVR.pth",
+      "size": 126792647,
+      "id": 72197388,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/4_HP-Vocal-UVR.pth"
+    },
+    {
+      "name": "5_HP-Karaoke-UVR.pth",
+      "size": 126782699,
+      "id": 72197403,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/5_HP-Karaoke-UVR.pth"
+    },
+    {
+      "name": "6_HP-Karaoke-UVR.pth",
+      "size": 126782699,
+      "id": 72197406,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/6_HP-Karaoke-UVR.pth"
+    },
+    {
+      "name": "7_HP2-UVR.pth",
+      "size": 550120123,
+      "id": 72197409,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/7_HP2-UVR.pth"
+    },
+    {
+      "name": "8_HP2-UVR.pth",
+      "size": 550131079,
+      "id": 72197426,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/8_HP2-UVR.pth"
+    },
+    {
+      "name": "9_HP2-UVR.pth",
+      "size": 550131079,
+      "id": 72197462,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/9_HP2-UVR.pth"
+    },
+    {
+      "name": "10_SP-UVR-2B-32000-1.pth",
+      "size": 31938951,
+      "id": 72197494,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/10_SP-UVR-2B-32000-1.pth"
+    },
+    {
+      "name": "11_SP-UVR-2B-32000-2.pth",
+      "size": 31938951,
+      "id": 72197497,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/11_SP-UVR-2B-32000-2.pth"
+    },
+    {
+      "name": "12_SP-UVR-3B-44100.pth",
+      "size": 31938951,
+      "id": 72197499,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/12_SP-UVR-3B-44100.pth"
+    },
+    {
+      "name": "13_SP-UVR-4B-44100-1.pth",
+      "size": 31938951,
+      "id": 72197502,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/13_SP-UVR-4B-44100-1.pth"
+    },
+    {
+      "name": "14_SP-UVR-4B-44100-2.pth",
+      "size": 31938951,
+      "id": 72197506,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/14_SP-UVR-4B-44100-2.pth"
+    },
+    {
+      "name": "15_SP-UVR-MID-44100-1.pth",
+      "size": 31938951,
+      "id": 72197509,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/15_SP-UVR-MID-44100-1.pth"
+    },
+    {
+      "name": "16_SP-UVR-MID-44100-2.pth",
+      "size": 31938951,
+      "id": 72197514,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/16_SP-UVR-MID-44100-2.pth"
+    },
+    {
+      "name": "17_HP-Wind_Inst-UVR.pth",
+      "size": 223661285,
+      "id": 100204604,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/17_HP-Wind_Inst-UVR.pth"
+    },
+    {
+      "name": "MGM_HIGHEND_v4.pth",
+      "size": 31861529,
+      "id": 72197516,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/MGM_HIGHEND_v4.pth"
+    },
+    {
+      "name": "MGM_LOWEND_A_v4.pth",
+      "size": 31938951,
+      "id": 72197518,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/MGM_LOWEND_A_v4.pth"
+    },
+    {
+      "name": "MGM_LOWEND_B_v4.pth",
+      "size": 31938951,
+      "id": 72197521,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/MGM_LOWEND_B_v4.pth"
+    },
+    {
+      "name": "MGM_MAIN_v4.pth",
+      "size": 31938951,
+      "id": 72197524,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/MGM_MAIN_v4.pth"
+    },
+    {
+      "name": "UVR-BVE-4B_SN-44100-1.pth",
+      "size": 223650277,
+      "id": 126650076,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-BVE-4B_SN-44100-1.pth"
+    },
+    {
+      "name": "UVR-De-Echo-Aggressive.pth",
+      "size": 127139365,
+      "id": 105465797,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-De-Echo-Aggressive.pth"
+    },
+    {
+      "name": "UVR-De-Echo-Normal.pth",
+      "size": 127139365,
+      "id": 105465936,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-De-Echo-Normal.pth"
+    },
+    {
+      "name": "UVR-DeEcho-DeReverb.pth",
+      "size": 223650277,
+      "id": 107426067,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-DeEcho-DeReverb.pth"
+    },
+    {
+      "name": "UVR-DeNoise-Lite.pth",
+      "size": 17922277,
+      "id": 112635154,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-DeNoise-Lite.pth"
+    },
+    {
+      "name": "UVR-DeNoise.pth",
+      "size": 127139365,
+      "id": 112635072,
+      "category": "VR Architecture（.pth）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-DeNoise.pth"
+    },
+    {
+      "name": "Kim_Inst.onnx",
+      "size": 66759214,
+      "id": 105466262,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/Kim_Inst.onnx"
+    },
+    {
+      "name": "Kim_Vocal_1.onnx",
+      "size": 66759214,
+      "id": 89577583,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/Kim_Vocal_1.onnx"
+    },
+    {
+      "name": "Kim_Vocal_2.onnx",
+      "size": 66759214,
+      "id": 108817997,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/Kim_Vocal_2.onnx"
+    },
+    {
+      "name": "kuielab_a_bass.onnx",
+      "size": 29703204,
+      "id": 84208682,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_a_bass.onnx"
+    },
+    {
+      "name": "kuielab_a_drums.onnx",
+      "size": 29703204,
+      "id": 84208699,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_a_drums.onnx"
+    },
+    {
+      "name": "kuielab_a_other.onnx",
+      "size": 29703204,
+      "id": 84208701,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_a_other.onnx"
+    },
+    {
+      "name": "kuielab_a_vocals.onnx",
+      "size": 29703204,
+      "id": 84208704,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_a_vocals.onnx"
+    },
+    {
+      "name": "kuielab_b_bass.onnx",
+      "size": 29703204,
+      "id": 84208707,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_b_bass.onnx"
+    },
+    {
+      "name": "kuielab_b_drums.onnx",
+      "size": 21930313,
+      "id": 84208718,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_b_drums.onnx"
+    },
+    {
+      "name": "kuielab_b_other.onnx",
+      "size": 29703204,
+      "id": 84208729,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_b_other.onnx"
+    },
+    {
+      "name": "kuielab_b_vocals.onnx",
+      "size": 29703204,
+      "id": 84208851,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/kuielab_b_vocals.onnx"
+    },
+    {
+      "name": "Reverb_HQ_By_FoxJoy.onnx",
+      "size": 66780123,
+      "id": 103581181,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/Reverb_HQ_By_FoxJoy.onnx"
+    },
+    {
+      "name": "UVR_MDXNET_1_9703.onnx",
+      "size": 29704436,
+      "id": 72197776,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_1_9703.onnx"
+    },
+    {
+      "name": "UVR_MDXNET_2_9682.onnx",
+      "size": 29704436,
+      "id": 72197777,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_2_9682.onnx"
+    },
+    {
+      "name": "UVR_MDXNET_3_9662.onnx",
+      "size": 29704436,
+      "id": 72197778,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_3_9662.onnx"
+    },
+    {
+      "name": "UVR_MDXNET_9482.onnx",
+      "size": 29704436,
+      "id": 72197780,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_9482.onnx"
+    },
+    {
+      "name": "UVR_MDXNET_KARA_2.onnx",
+      "size": 52786726,
+      "id": 100205059,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_KARA_2.onnx"
+    },
+    {
+      "name": "UVR_MDXNET_KARA.onnx",
+      "size": 29704436,
+      "id": 72197782,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_KARA.onnx"
+    },
+    {
+      "name": "UVR_MDXNET_Main.onnx",
+      "size": 66759214,
+      "id": 72197783,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_MDXNET_Main.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET_Crowd_HQ_1.onnx",
+      "size": 59074342,
+      "id": 155593438,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET_Crowd_HQ_1.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_1.onnx",
+      "size": 66759214,
+      "id": 82953086,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_1.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_2.onnx",
+      "size": 66759214,
+      "id": 82953118,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_2.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_3.onnx",
+      "size": 66759214,
+      "id": 82953157,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_3.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_HQ_1.onnx",
+      "size": 66759214,
+      "id": 101350754,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_1.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_HQ_2.onnx",
+      "size": 66759214,
+      "id": 103095414,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_2.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_HQ_3.onnx",
+      "size": 66759214,
+      "id": 112310332,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_3.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_HQ_4.onnx",
+      "size": 59074342,
+      "id": 155585565,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_4.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_HQ_5.onnx",
+      "size": 59074342,
+      "id": 208872913,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_HQ_5.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Inst_Main.onnx",
+      "size": 52786726,
+      "id": 88733097,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Inst_Main.onnx"
+    },
+    {
+      "name": "UVR-MDX-NET-Voc_FT.onnx",
+      "size": 66762490,
+      "id": 113804013,
+      "category": "MDX-Net / ONNX（.onnx）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR-MDX-NET-Voc_FT.onnx"
+    },
+    {
+      "name": "mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt",
+      "size": 913096801,
+      "id": 218553993,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/mel_band_roformer_karaoke_aufr33_viperx_sdr_10.1956.ckpt"
+    },
+    {
+      "name": "melband_roformer_inst_v1.ckpt",
+      "size": 913100690,
+      "id": 203307392,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/melband_roformer_inst_v1.ckpt"
+    },
+    {
+      "name": "melband_roformer_inst_v2.ckpt",
+      "size": 1574477088,
+      "id": 204101437,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/melband_roformer_inst_v2.ckpt"
+    },
+    {
+      "name": "melband_roformer_instvoc_duality_v1.ckpt",
+      "size": 1719116358,
+      "id": 203307677,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/melband_roformer_instvoc_duality_v1.ckpt"
+    },
+    {
+      "name": "melband_roformer_instvox_duality_v2.ckpt",
+      "size": 1719116358,
+      "id": 203308289,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/melband_roformer_instvox_duality_v2.ckpt"
+    },
+    {
+      "name": "model_bs_roformer_ep_317_sdr_12.9755.ckpt",
+      "size": 639331213,
+      "id": 159247370,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/model_bs_roformer_ep_317_sdr_12.9755.ckpt"
+    },
+    {
+      "name": "model_bs_roformer_ep_368_sdr_12.9628.ckpt",
+      "size": 639317465,
+      "id": 159261955,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/model_bs_roformer_ep_368_sdr_12.9628.ckpt"
+    },
+    {
+      "name": "model_bs_roformer_ep_937_sdr_10.5309.ckpt",
+      "size": 393068365,
+      "id": 159262101,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/model_bs_roformer_ep_937_sdr_10.5309.ckpt"
+    },
+    {
+      "name": "model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt",
+      "size": 1007816988,
+      "id": 159262193,
+      "category": "Roformer（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/model_mel_band_roformer_ep_3005_sdr_11.4360.ckpt"
+    },
+    {
+      "name": "MDX23C_D1581.ckpt",
+      "size": 183379219,
+      "id": 116260035,
+      "category": "MDX23C（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/MDX23C_D1581.ckpt"
+    },
+    {
+      "name": "MDX23C-8KFFT-InstVoc_HQ.ckpt",
+      "size": 448101203,
+      "id": 127723568,
+      "category": "MDX23C（.ckpt）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/MDX23C-8KFFT-InstVoc_HQ.ckpt"
+    },
+    {
+      "name": "checkpoint-multi_fixed.ckpt",
+      "size": 149133378,
+      "id": 218553910,
+      "category": "其他 CKPT 模型",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/checkpoint-multi_fixed.ckpt"
+    },
+    {
+      "name": "model_bandit_plus_dnr_sdr_11.47.ckpt",
+      "size": 148891175,
+      "id": 218564008,
+      "category": "其他 CKPT 模型",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/model_bandit_plus_dnr_sdr_11.47.ckpt"
+    },
+    {
+      "name": "ebf34a2d.th",
+      "size": 167390507,
+      "id": 72197830,
+      "category": "Demucs 权重（.th）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/ebf34a2d.th"
+    },
+    {
+      "name": "ebf34a2db.th",
+      "size": 167390507,
+      "id": 72197833,
+      "category": "Demucs 权重（.th）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/ebf34a2db.th"
+    },
+    {
+      "name": "hdemucs_mmi.yaml",
+      "size": 33,
+      "id": 83960014,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/hdemucs_mmi.yaml"
+    },
+    {
+      "name": "htdemucs_6s.yaml",
+      "size": 21,
+      "id": 87522936,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/htdemucs_6s.yaml"
+    },
+    {
+      "name": "htdemucs_ft.yaml",
+      "size": 149,
+      "id": 83960017,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/htdemucs_ft.yaml"
+    },
+    {
+      "name": "htdemucs.yaml",
+      "size": 21,
+      "id": 83960015,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/htdemucs.yaml"
+    },
+    {
+      "name": "mdx_extra_q.yaml",
+      "size": 69,
+      "id": 88962648,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/mdx_extra_q.yaml"
+    },
+    {
+      "name": "mdx_extra.yaml",
+      "size": 68,
+      "id": 88962647,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/mdx_extra.yaml"
+    },
+    {
+      "name": "mdx_q.yaml",
+      "size": 162,
+      "id": 88962650,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/mdx_q.yaml"
+    },
+    {
+      "name": "mdx.yaml",
+      "size": 162,
+      "id": 88962646,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/mdx.yaml"
+    },
+    {
+      "name": "repro_mdx_a_hybrid_only.yaml",
+      "size": 69,
+      "id": 83960019,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/repro_mdx_a_hybrid_only.yaml"
+    },
+    {
+      "name": "repro_mdx_a_time_only.yaml",
+      "size": 69,
+      "id": 83960020,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/repro_mdx_a_time_only.yaml"
+    },
+    {
+      "name": "repro_mdx_a.yaml",
+      "size": 69,
+      "id": 83960018,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/repro_mdx_a.yaml"
+    },
+    {
+      "name": "UVR_Demucs_Model_1.yaml",
+      "size": 33,
+      "id": 72197816,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_Demucs_Model_1.yaml"
+    },
+    {
+      "name": "UVR_Demucs_Model_2.yaml",
+      "size": 32,
+      "id": 72197817,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_Demucs_Model_2.yaml"
+    },
+    {
+      "name": "UVR_Demucs_Model_Bag.yaml",
+      "size": 45,
+      "id": 72197818,
+      "category": "Demucs 配置（.yaml）",
+      "source_url": "https://github.com/TRvlvr/model_repo/releases/download/all_public_uvr_models/UVR_Demucs_Model_Bag.yaml"
+    }
+  ]
+}

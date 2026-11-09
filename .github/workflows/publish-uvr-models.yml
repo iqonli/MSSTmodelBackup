@@ -1,0 +1,37 @@
+name: Mirror UVR public models to a non-latest Release
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-uvr-models.yml"
+      - "scripts/mirror_uvr_release.py"
+      - "uvr_source_assets.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: uvr-all-public-models-backup
+  cancel-in-progress: false
+
+jobs:
+  mirror:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - name: Checkout source manifest
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install HTTP client
+        run: python -m pip install --no-cache-dir "requests>=2.31,<3"
+      - name: Mirror all original assets with SHA256 audit
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          PYTHONUNBUFFERED: "1"
+        run: python -u scripts/mirror_uvr_release.py uvr_source_assets.json
