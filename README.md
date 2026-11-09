@@ -25,3 +25,7 @@ The Release includes `SHA256SUMS.txt` and `SOURCE_MANIFEST.json` for verifying d
 ## Credits and licensing
 
 Models and YAML configurations belong to their respective authors and may carry different licenses. Follow each linked upstream model repository for attribution, licenses, and usage restrictions. The MIT license in this GitHub repository covers the automation code only; it **does not** relicense third-party weights or configurations.
+
+## BS-RoFormer SW Fixed
+
+A [separate Release](https://github.com/iqonli/MSSTmodelBackup/releases/tag/bs-roformer-sw-fixed-2026-11-10) contains `BS-Rofo-SW-Fixed.ckpt` (699,412,152 bytes) and `BS-Rofo-SW-Fixed.yaml` (4,613 bytes), sourced from [enerjazzer/BS-ROFO-SW-Fixed](https://huggingface.co/enerjazzer/BS-ROFO-SW-Fixed). The [independent workflow](.github/workflows/publish-bs-roformer-sw-fixed.yml) checks their SHA256 hashes, reports download speed in the Actions command-line log, and attaches `SHA256SUMS.txt` and `DOWNLOAD_SPEED.json`. Original model licensing is unknown; this repository's MIT license does not cover the third-party weights.

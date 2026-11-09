@@ -1,0 +1,24 @@
+name: Publish BS-RoFormer SW Fixed
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-bs-roformer-sw-fixed.yml"
+      - "scripts/publish_sw_fixed.py"
+permissions:
+  contents: write
+concurrency:
+  group: sw-fixed-release
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download with live speed and publish
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+        run: python3 -u scripts/publish_sw_fixed.py
