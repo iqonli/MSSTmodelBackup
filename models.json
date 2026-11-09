@@ -1,0 +1,60 @@
+{
+  "tag": "models-2026-11-10",
+  "title": "MSST model backup (9 Roformer models)",
+  "models": [
+    {
+      "asset": "inst_v1e.ckpt",
+      "repo": "pcunwa/Mel-Band-Roformer-Inst",
+      "file": "inst_v1e.ckpt",
+      "yaml": "config_melbandroformer_inst.yaml"
+    },
+    {
+      "asset": "bs_leap_xe_voc.ckpt",
+      "repo": "pcunwa/BS-Roformer-Leap",
+      "file": "Xe/bs_leap_xe_voc.ckpt",
+      "yaml": "Xe/leap_xe_config_voc.yaml"
+    },
+    {
+      "asset": "model_bs_roformer_ep_368_sdr_12.9628.ckpt",
+      "repo": "Eddycrack864/Music-Source-Separation-Training",
+      "file": "model_bs_roformer_ep_368_sdr_12.9628.ckpt",
+      "yaml": "model_bs_roformer_ep_368_sdr_12.9628.yaml"
+    },
+    {
+      "asset": "karaoke_bs_roformer_anvuew.ckpt",
+      "repo": "anvuew/karaoke_bs_roformer",
+      "file": "karaoke_bs_roformer_anvuew.ckpt",
+      "yaml": "karaoke_bs_roformer_anvuew.yaml"
+    },
+    {
+      "asset": "bs_roformer_karaoke_frazer_becruily.ckpt",
+      "repo": "becruily/bs-roformer-karaoke",
+      "file": "bs_roformer_karaoke_frazer_becruily.ckpt",
+      "yaml": "config_karaoke_frazer_becruily.yaml"
+    },
+    {
+      "asset": "BS-Roformer-Resurrection-Inst.ckpt",
+      "repo": "pcunwa/BS-Roformer-Resurrection",
+      "file": "BS-Roformer-Resurrection-Inst.ckpt",
+      "yaml": "BS-Roformer-Resurrection-Inst-Config.yaml"
+    },
+    {
+      "asset": "BS-Roformer-Resurrection-Vocal.ckpt",
+      "repo": "pcunwa/BS-Roformer-Resurrection",
+      "file": "BS-Roformer-Resurrection.ckpt",
+      "yaml": "BS-Roformer-Resurrection-Config.yaml"
+    },
+    {
+      "asset": "mel_band_roformer_instrumental_becruily.ckpt",
+      "repo": "becruily/mel-band-roformer-instrumental",
+      "file": "mel_band_roformer_instrumental_becruily.ckpt",
+      "yaml": "config_instrumental_becruily.yaml"
+    },
+    {
+      "asset": "melband_roformer_inst_v2.ckpt",
+      "repo": "pcunwa/Mel-Band-Roformer-Inst",
+      "file": "melband_roformer_inst_v2.ckpt",
+      "yaml": "config_melbandroformer_inst_v2.yaml"
+    }
+  ]
+}

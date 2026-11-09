@@ -1,0 +1,40 @@
+name: Publish MSST model backup
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/publish-models.yml"
+      - "scripts/publish_models.py"
+      - "models.json"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: msst-model-backup-release
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install downloader
+        run: python -m pip install --no-cache-dir "huggingface_hub[hf_xet]>=0.34,<2"
+
+      - name: Download and publish all model assets
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          HF_XET_CACHE: ${{ runner.temp }}/hf-xet-cache
+        run: python scripts/publish_models.py models.json
