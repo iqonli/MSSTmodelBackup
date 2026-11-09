@@ -1,0 +1,35 @@
+name: 同步 Release 中文标题与说明
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/localize-releases.yml"
+      - "scripts/localize_releases.py"
+      - "release-notes/**"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: localize-releases
+  cancel-in-progress: false
+
+jobs:
+  localize:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+      - name: Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 更新四个 Release 的标题和说明
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          PYTHONUNBUFFERED: "1"
+        run: python scripts/localize_releases.py
